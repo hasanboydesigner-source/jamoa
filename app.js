@@ -110,3 +110,43 @@ function YaratishMobile() {
   numbers.innerHTML = card.join("");
 }
 YaratishMobile();
+//
+
+//
+
+let grafikstatistics = [
+  {
+    sarlavha: "01",
+    izoh: "Introduction to Mobile App Development",
+  },
+  {
+    sarlavha: "02",
+    izoh: "Fundamentals of Swift Programming (iOS)",
+  },
+  {
+    sarlavha: "03",
+    izoh: "Fundamentals of Kotlin Programming (Android)",
+  },
+  {
+    sarlavha: "04",
+    izoh: "Building User Interfaces",
+  },
+  {
+    sarlavha: "05",
+    izoh: "App Deployment and Testing",
+  },
+];
+
+function YaratishGrafik() {
+  let numbers = document.querySelector(".grafik");
+  let card = grafikstatistics.map((e) => {
+    return `
+     <div class="number bg-[#fff] hover:bg-[#f5f5f5] hover:translate-y-2 cursor-pointer transition-all duration-200 ease-in-out border-collapse border-[1px] border-[#E0E0E0] rounded-[8px] p-[20px]">
+        <h4 class="text-[24px] font-bold">${e.sarlavha}</h4>
+        <span class="text-[16px] block max-w-[150px] text-[#666666]">${e.izoh}</span>
+      </div>
+    `;
+  });
+  numbers.innerHTML = card.join("");
+}
+YaratishGrafik();
