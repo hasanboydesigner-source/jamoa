@@ -77,23 +77,23 @@ YaratishUx();
 let mobilestatistics = [
   {
     sarlavha: "01",
-    izoh: "Introduction to UI/UX Design",
+    izoh: "Introduction to Mobile App Development",
   },
   {
     sarlavha: "02",
-    izoh: "User Research and Personas",
+    izoh: "Fundamentals of Swift Programming (iOS)",
   },
   {
     sarlavha: "03",
-    izoh: "Wireframing and Prototyping",
+    izoh: "Fundamentals of Kotlin Programming (Android)",
   },
   {
     sarlavha: "04",
-    izoh: "Visual Design and Branding",
+    izoh: "Building User Interfaces",
   },
   {
     sarlavha: "05",
-    izoh: "Usability Testing and Iteration",
+    izoh: "App Deployment and Testing",
   },
 ];
 
