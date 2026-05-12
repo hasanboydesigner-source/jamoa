@@ -117,23 +117,23 @@ YaratishMobile();
 let grafikstatistics = [
   {
     sarlavha: "01",
-    izoh: "Introduction to Mobile App Development",
+    izoh: "Introduction to Graphic Design",
   },
   {
     sarlavha: "02",
-    izoh: "Fundamentals of Swift Programming (iOS)",
+    izoh: "Typography and Color Theory",
   },
   {
     sarlavha: "03",
-    izoh: "Fundamentals of Kotlin Programming (Android)",
+    izoh: "Layout Design and Composition",
   },
   {
     sarlavha: "04",
-    izoh: "Building User Interfaces",
+    izoh: "Image Editing and Manipulation",
   },
   {
     sarlavha: "05",
-    izoh: "App Deployment and Testing",
+    izoh: "Designing for Print and Digital Media",
   },
 ];
 
