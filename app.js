@@ -39,23 +39,23 @@ Yaratish();
 let uxstatistics = [
   {
     sarlavha: "01",
-    izoh: "Introduction to HTML",
+    izoh: "Introduction to UI/UX Design",
   },
   {
     sarlavha: "02",
-    izoh: "Styling with CSS",
+    izoh: "User Research and Personas",
   },
   {
     sarlavha: "03",
-    izoh: "Introduction to Responsive Design",
+    izoh: "Wireframing and Prototyping",
   },
   {
     sarlavha: "04",
-    izoh: "Design Principles for Web",
+    izoh: "Visual Design and Branding",
   },
   {
     sarlavha: "05",
-    izoh: "Building a Basic Website",
+    izoh: "Usability Testing and Iteration",
   },
 ];
 
