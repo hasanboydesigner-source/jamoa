@@ -150,3 +150,42 @@ function YaratishGrafik() {
   numbers.innerHTML = card.join("");
 }
 YaratishGrafik();
+
+//
+
+let Frontstatistics = [
+  {
+    sarlavha: "01",
+    izoh: "HTML Fundamentals",
+  },
+  {
+    sarlavha: "02",
+    izoh: "CSS Styling and Layouts",
+  },
+  {
+    sarlavha: "03",
+    izoh: "JavaScript Basics",
+  },
+  {
+    sarlavha: "04",
+    izoh: "Building Responsive Websites",
+  },
+  {
+    sarlavha: "05",
+    izoh: "Introduction to Bootstrap and React",
+  },
+];
+
+function YaratishFront() {
+  let numbers = document.querySelector(".front");
+  let card = Frontstatistics.map((e) => {
+    return `
+     <div class="number bg-[#fff] hover:bg-[#f5f5f5] hover:translate-y-2 cursor-pointer transition-all duration-200 ease-in-out border-collapse border-[1px] border-[#E0E0E0] rounded-[8px] p-[20px]">
+        <h4 class="text-[24px] font-bold">${e.sarlavha}</h4>
+        <span class="text-[16px] block max-w-[150px] text-[#666666]">${e.izoh}</span>
+      </div>
+    `;
+  });
+  numbers.innerHTML = card.join("");
+}
+YaratishFront();
